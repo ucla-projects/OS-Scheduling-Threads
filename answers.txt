@@ -1,0 +1,52 @@
+Name: Jeffrey Tai
+UCLA ID: 504147859
+
+Name: Brian Chang
+UCLA ID: 304151550
+
+-------------------------------------------------------------------------------
+
+Response to Exercise 1:
+
+The name of the scheduling algorithm is:
+The scheduling algorith is round-robin scheduling. It continues around, running the processes that are runnable, and skipping those that are non-runnable.
+
+(Exercise 2 is a coding exercise)
+
+
+Response to Exercise 3:
+
+Average turnaround time for scheduling_algorithm 0: 
+1280+1279+1278+1277=5114ms (total turnaround time)
+5114ms / 4 processes = 1278.5ms (average turnaround time)
+
+Average turnaround time for scheduling_algorithm 1:
+320(number of times to run)+640+960+1280=3200ms (total turnaround time)
+3200ms / 4 processes = 800ms (average turnaround time)
+
+Average wait time for scheduling_algorithm 0:
+1+2+3 = 6ms (total wait time)
+6ms / 4 processes = 1.5ms (average wait time)
+
+Average wait time for scheduling_algorithm 1:
+320(number of times to run)+640+960=1920ms (total wait time)
+1920ms / 4 processes = 480ms (average wait time)
+
+
+Exercise 4:
+
+Did you complete Exercise 4A or Exercise 4B?
+I completed exercise 4A by adding the scheduling_algorithm 2. I added p_priority to the process struct which holds the priority of the process, with the lower number being the higher priority.
+
+Exercise 5:
+
+The numbers come out to be: 1234 1234 1234 1234 123 ... 1234
+It's clear that the 5th repetition is not complete, meaning that there was an interrupt during Process 4. Because of this, the print was not complete.
+
+
+(Exercise 6 is a coding exercise)
+
+
+Anything else you'd like us to know:
+
+
